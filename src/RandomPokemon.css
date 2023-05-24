@@ -1,0 +1,8 @@
+.RandomPokemon {
+  border: 3px dashed black;
+  border-radius: 10px;
+}
+
+.RandomPokemon h1 {
+  color: blue;
+}
