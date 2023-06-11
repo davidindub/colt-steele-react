@@ -3,6 +3,8 @@ import Clicker from "./Clicker";
 import Form from "./Form";
 import Counter from "./Counter";
 import Toggler from "./Toggler";
+import TogglerCounter from "./ToggleCounter";
+import ColourBoxGrid from "./ColourBoxGrid";
 import "./styles.css";
 
 const data = [
@@ -24,7 +26,9 @@ export default function App() {
 
       {/* <Counter /> */}
 
-      <Toggler />
+      {/* <TogglerCounter /> */}
+
+      <ColourBoxGrid />
     </div>
   );
 }
